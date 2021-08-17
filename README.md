@@ -3,6 +3,6 @@
 ## Made by Aristarkh Minsky
 
 ### Technologies
--html
--css
--javascript
+- html
+- css
+- javascript
