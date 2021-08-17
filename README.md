@@ -1,4 +1,8 @@
-# melody
-Учебный проект Glo Academy
+# melody - Учебный проект Glo Academy
 
-Made by Aristarkh Minsky
+## Made by Aristarkh Minsky
+
+### Technologies
+-html
+-css
+-javascript
