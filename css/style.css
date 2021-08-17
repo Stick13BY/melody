@@ -1,0 +1,63 @@
+/* правило для всех элементов*/
+* {
+  box-sizing: border-box; /*для правильного расчёта высоты и ширины элементов*/
+}
+
+body {
+  font-family: "Roboto", sans-serif; /*прописываем шрифт для сайта*/
+}
+
+.header {
+  background-color: #635854;
+  /*отступы*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3596f5;
+}
+
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex; /*сделали блок гибким - выставляем элементы в ряд*/
+  justify-content: space-between; /*разделяем элементы по краям*/
+  align-items: center; /*выравниваем элементы по центру относительно вертикали*/
+}
+
+.navbar-menu {
+  margin: 0; /*отключаем внешние отступы*/
+  padding: 0; /*отключаем внутренние отступы*/
+  list-style: none; /*отключаем точки списка*/
+  display: flex;
+  text-align: center;
+}
+/*Настройка элементов списка навбара*/
+.navbar-item {
+  /*Отступы элементов*/
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/*Настройка ссылок навбара*/
+.navbar-link {
+  text-decoration: none; /* убираем подчёркивание ссылки*/
+  color: #fff;
+}
+
+.navbar-contacts {
+  text-align: right;
+}
+
+.navbar-text {
+  display: block;
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navbar-phone {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
